@@ -1,0 +1,679 @@
+.navbar-brand img {
+    mix-blend-mode: multiply; /* Blend the logo with the background */
+    opacity: 0.5; /* Slight transparency to blend with the navbar background */
+    
+}
+
+.navbar {
+    background-color: #000; /* Set the background of the navbar */
+    color:white
+}
+
+
+.navbar-nav .nav-item .nav-link.active {
+    color: orange !important; 
+}
+
+.image-class {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/image1.png');
+    background-size: cover; /* Make sure the background image covers the container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 580px; /* Ensure the container has a fixed height */
+    width: 100%; /* Make the image container take full width */
+}
+body{
+    background-color: black;
+}
+.container1 {
+    /* Dark background color */
+    color: white; /* White text to contrast the dark background */
+    padding: 30px;
+    max-width: 100%; /* Full width */
+   /* Adjusts height based on content */
+    margin: 0 auto; /* Center align the container */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px; /* Adjust spacing between image and text as needed */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.container1 img {
+    width: 400px;
+    height: 360px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+/* Background and text styling for sections */
+
+body {
+    .food-quality {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full viewport height */
+        width: 100%; /* Full width */
+        background-color: #171b25; /* Ensures background color for the section */
+    }
+    
+    .food-quality svg {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+    }
+    /* Sets the body background color */
+    color: white; /* Sets the text color to white for better contrast */
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.navbar-brand img {
+    mix-blend-mode: multiply; /* Blend the logo with the background */
+    opacity: 0.5; /* Slight transparency to blend with the navbar background */
+    
+}
+
+.navbar {
+    background-color: #000; /* Set the background of the navbar */
+}
+
+
+.navbar-nav .nav-item .nav-link.active {
+    color: orange !important; 
+}
+
+.image-class {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.custom-text {
+    text-align: left;
+    max-width: 80%;
+    padding: 40px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-left: 450px;
+    
+
+}
+
+.custom-text h1 {
+    font-size: clamp(24px, 5vw, 50px); /* Responsive font size */
+    color: #ffa500;
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 1;
+   
+    
+}
+
+.custom-text p {
+    font-size: clamp(12px, 2vw, 16px); /* Responsive font size */
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding-left: 350px;
+    
+}
+.custom-text h1, 
+.custom-text p {
+    margin-left: 0; /* Ensure no additional left margin */
+    padding-left: 0; /* Ensure no additional left padding */
+}
+
+
+.custom-text .btn {
+    font-size: clamp(14px, 2vw, 18px); /* Responsive button font size */
+    padding: 12px 20px;
+    background-color: #ffa500;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: none;
+    
+}
+
+.custom-text .btn:hover {
+    background-color: #e69500;
+}
+
+/* Responsive layout adjustments for smaller screens */
+@media (max-width: 768px) {
+    .custom-text {
+        padding: 15px;
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-text {
+        padding: 10px;
+        padding-top: 80px;
+    }
+
+    .custom-text h1 {
+        font-size: clamp(20px, 5vw, 30px);
+    }
+
+    .custom-text p {
+        margin-bottom: 15px;
+    }
+
+    .custom-text .btn {
+        padding: 8px 16px;
+    }
+}
+.container1 {
+    /* Dark background color */
+    color: white; /* White text to contrast the dark background */
+    padding: 30px;
+    max-width: 100%; /* Full width */
+   /* Adjusts height based on content */
+    margin: 0 auto; /* Center align the container */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px; /* Adjust spacing between image and text as needed */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.container1 img {
+    width: 400px;
+    height: 360px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.about {
+    margin-top: 100px;
+    flex: 1; /* Takes available space and aligns with Flexbox */
+   
+
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .container1 {
+        flex-direction: column; /* Stacks elements vertically on smaller screens */
+        align-items: center; /* Centers content on smaller screens */
+    }
+    .container1 img {
+        margin: 0 auto; /* Center image */
+    }
+    .about {
+        margin-top: 20px; /* Add spacing between image and text */
+        margin-left: 0; /* Remove left margin to center-align text */
+        text-align: center; /* Center text on smaller screens */
+    }
+}
+
+.food-quality {
+    position: relative;
+    width: 100%;
+    height: auto;
+    
+}
+
+.container4 {
+   margin-top: 700px;
+}
+
+.background-image {
+    width: 1800px;
+    height: 1000px;
+    display: block;
+    
+}
+
+.container5 {
+    position: absolute;
+    top: 50%; /* Adjust to position the foreground image */
+    left: 50%; /* Adjust to center the image horizontally */
+    transform: translate(-50%, -50%); /* Center the image */
+}
+
+.foreground-image {
+    width: 550px; /* Adjust as needed */
+    height: 550px; /* Adjust as needed */
+    z-index: 10; /* Ensures it's on top of the background image */
+    margin-top: 1250px;
+    margin-left: 350px;
+}
+.image4 {
+    position: absolute; /* Position it explicitly */
+    right: 0; /* Align it to the right margin */
+    
+    transform: translateY(-50%); /* Adjust for perfect vertical centering */
+    width:300px; /* Maintain aspect ratio */
+    max-width: 90%; /* Optional: Adjust max width as needed */
+    height: 500px; /* Maintain height dynamically */
+    padding-bottom: 100px;
+}
+.content {
+    position: absolute; /* Layer it over the image */
+   
+    
+    z-index: 2; /* Ensure it appears above the image */
+   
+    padding: 50px; /* Add some spacing inside the content box */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-right: 500px;
+    
+    
+
+}
+
+.content h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+.image3{
+    height:200px;
+    margin-top: 150px;
+    width: 30%;
+    left: 0;
+}
+@media only screen and (max-width: 480px) {
+    img3 {
+      width: 100%;
+    }
+  }
+.container7 h1{
+    margin-left: 400px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+
+
+
+.food-gallery {
+    padding: 0; /* No extra padding around the gallery section */
+   
+   
+}
+
+.food-gallery .row {
+    margin: 0; /* Remove the default negative margins of the row */
+    padding-left: 8%;
+}
+
+.food-gallery .col-lg-4,
+.food-gallery .col-md-6,
+.food-gallery .col-sm-12 {
+    padding: 0px; /* Add 5px spacing between images */
+}
+
+.gallery-item {
+    width: 80%; /* Make the image fit its column */
+    height: auto; /* Keep the aspect ratio */
+    display: block; /* Ensure images don't add extra spacing */
+    border-radius: 1px; /* Optional: Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+/* Container styling */
+.container8 {
+    border: 3px solid rgb(245, 161, 6); /* For debugging */
+    padding: 20px;
+    text-align: center;
+    
+    color: white;
+    border-radius: 8px;
+    margin: 20px auto; /* Center horizontally */
+    max-width: 90%; /* Makes it responsive */
+}
+
+/* Heading styling */
+.container8 h1 {
+    margin: 0 auto;
+    font-size: 2rem; /* Responsive font size */
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+.container8 p {
+    font-size: 1rem; /* Adjust for responsiveness */
+    line-height: 1.5;
+}
+
+/* For small devices */
+@media screen and (max-width: 768px) {
+    .container8 h1 {
+        font-size: 1.5rem;
+    }
+    .container8 p {
+        font-size: 0.9rem;
+    }
+}
+
+/* For extra small devices */
+@media screen and (max-width: 576px) {
+    .container8 {
+        padding: 10px;
+    }
+    .container8 h1 {
+        font-size: 1.2rem;
+    }
+    .container8 p {
+        font-size: 0.8rem;
+    }
+}
+.food-qualitytwo {
+    background-image: url('http://localhost:8080/mywordpress/wp-content/themes/foodloverwp/assets/images/image13.jpg');
+    width: 100%;
+    height: 580px; /* Default height */
+    background-size: cover; /* Ensures the image scales proportionally */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+    display: flex; /* Ensures proper alignment of content */
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    padding: 20px;
+    color: white; /* Ensures text is readable against the background */
+    text-align: center;
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .food-qualitytwo {
+        height: 400px; /* Adjust height for smaller screens */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .food-qualitytwo {
+        height: 300px; /* Further adjust height for extra small devices */
+    }
+}
+.ourfood-gallery h2{
+ margin-left: 60px;
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+/* General styling */
+.ourfood-gallery {
+    padding: 40px 15px;
+   
+    
+}
+
+
+
+/* Card styling */
+.card {
+  
+    background-color: #171b25; /* Dark background for card */
+    border: none; /* Removes the border */
+    box-shadow: none; /* Removes any default shadow */
+    margin: 0; /* Ensures no extra spacing */
+    padding: 0; /* Removes unwanted internal spacing */
+    
+    
+}
+.card-img-top {
+    border: none; /* Removes any border */
+    padding: 0; /* Ensures no extra padding */
+    margin: 0; /* Ensures no extra margin */
+    display: block; /* Removes any inline spacing */
+    border-radius: 0; /* Removes rounded corners, if applied */
+}
+
+.card-body{
+    background-color: #171b25;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Adds a hover effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px; /* Fixed image height */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    object-fit: cover;
+    background-color: #171b25;
+}
+   
+    
+
+
+
+
+.card-price {
+    color: #f5a623;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .ourfood-gallery h2 {
+        font-size: 2rem;
+    }
+    .card-img-top {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card {
+        margin: 0 auto; /* Center align cards on small screens */
+    }
+    .card-img-top {
+        height: 150px;
+    }
+    .card-price {
+        font-size: 1rem;
+    }
+}
+.card-title{
+    color:#e69500
+}
+.card-text{
+    color:white
+}
+/* Container styling */
+.enjoy-container {
+    background-color: rgb(248, 116, 8); /* Background for the section */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically align content */
+    justify-content: space-between; /* Space between image and text */
+    margin-top: 50px; /* Add padding for spacing */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    height: 400px;
+}
+
+/* Styling for the image */
+.meal-image {
+    width: 40%; /* Takes up 40% of the width */
+    max-width: 100%; /* Ensures image is responsive */
+    height: 550px; /* Maintain fixed height */
+    border-radius: 8px; /* Adds rounded corners */
+    transform: translateY(-100px); /* Moves the image 20px upwards */
+    margin-top: 10px; /* Resets any top margin */
+}
+
+/* Optional: Make the movement responsive */
+@media screen and (max-width: 768px) {
+    .meal-image {
+        transform: translateY(-10px); /* Move up less on smaller screens */
+        height: 300px; /* Adjust height for responsiveness */
+    }
+}
+
+
+/* Styling for the content */
+.contenttwo {
+   
+    
+    color: white; /* Text color for better contrast */
+    text-align: left; /* Align text to the left */
+    padding: 10px; /* Add some padding */
+    margin-top: -200px;
+   
+}
+.contenttwo h2{
+    font-size: 50px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 992px) {
+    .enjoy-container {
+        flex-direction: column; /* Stack content vertically */
+        text-align: center; /* Center align content */
+    }
+
+    .meal-image {
+        width: 100%; /* Full width for the image */
+        margin-bottom: 20px; /* Add spacing below the image */
+    }
+
+    .contenttwo {
+        text-align: center; /* Center-align text for smaller screens */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contenttwo h2 {
+        font-size: 1.5rem; /* Reduce heading size for smaller screens */
+    }
+
+    .contenttwo p {
+        font-size: 1rem; /* Adjust text size */
+    }
+}
+/* Footer Styling */
+.footer {
+    background-color:#171b25;; /* Match the body's background color */
+    color: white; /* Text color */
+    padding: 10px 0; /* Top and bottom padding */
+    text-align: center; /* Center-aligns content */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adds space between items */
+}
+
+/* Logo Section */
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo and text */
+}
+
+.logo-image {
+    height: 40px; /* Adjust logo size */
+}
+
+.footer-logo h3 {
+    font-family: 'Poppins', sans-serif; /* Optional font */
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f5a623; /* Accent color */
+}
+
+/* Navigation Links */
+.footer-nav {
+    list-style: none; /* Removes bullets */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
+    display: flex;
+    gap: 15px; /* Adds space between links */
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav a {
+    text-decoration: none; /* Removes underline */
+    color: white;
+    font-size: 1rem;
+}
+
+.footer-nav a:hover {
+    color: #f5a623; /* Hover effect */
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #f5a623; /* Hover effect */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .footer-content {
+        gap: 15px; /* Adjust spacing for smaller screens */
+    }
+
+    .footer-nav {
+        flex-wrap: wrap; /* Wrap links on smaller screens */
+        gap: 10px;
+    }
+}
+/* Social Media Icons */
+.social-icons {
+    display: flex; /* Use flexbox to align icons in a row */
+    gap: 15px; /* Space between icons */
+}
+
+.social-icons a {
+    color: white; /* Icon color */
+    font-size: 1.5rem; /* Adjust icon size */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.social-icons a:hover {
+    color: #f5a623; /* Hover color */
+}
+
+/* Optional: Responsive Design */
+@media screen and (max-width: 768px) {
+    .social-icons {
+        gap: 10px; /* Adjust spacing for smaller screens */
+    }
+}

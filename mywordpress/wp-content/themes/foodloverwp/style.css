@@ -1,0 +1,29 @@
+/*   
+Theme Name: foodlover
+Theme URI: <THEME_URI>
+Description: A Theme for WordPress with Bootstrap for styling.
+Author: Naveetha
+Author URI: <AUTHOR_URI>
+Version: 1.0
+*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+
+body {
+    background-color: #171b25; /* Dark background */
+    color: white; /* White text */
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white !important; /* Make links visible on dark backgrounds */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: orange !important; /* Change color on hover */
+}
+
+.navbar {
+    background-color: transparent !important; /* Maintain transparency */
+}
